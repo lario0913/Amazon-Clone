@@ -15,6 +15,13 @@
 .product__info{
     height: 100px;
     margin-bottom: 15px;
+    border: 2px solid red;
+}
+
+@media screen and (max-width:700px){
+    .product__info{
+        font-size: 12px;
+    }
 }
 
 .product > button {
@@ -29,12 +36,17 @@
     margin-top: 5px;
 }
 
+.product__rating{
+    display: flex;
+}
+
 /* Target images inside product container */
 .product > img {
-    max-height: 200px;
-    width: 100px;
+    height: 200px;
+    width: 120px;
     object-fit: contain;
     margin-bottom: 15px;
+    border: 2px solid red;
 }
 
 

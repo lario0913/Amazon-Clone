@@ -10,13 +10,26 @@ function Home() {
                 src="/amazon-bg1.jpg" alt="amazon background" />
 
             <div className="home__row">
+                <Product 
+                    title="The Lean Startup"
+                    price= {22.5}
+                    rating={3}
+                    image="/lean1.jpg"
+                />
+                <Product 
+                    title="Kenwood kMix Stand Mixer for Baking, Styling Kitchen Mixer with K-Beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+                    price= {239}
+                    rating={4}
+                    image="/mixer.jpg"
+                />
+            </div>
+            <div className="home__row">
+                <Product />
+                <Product />
                 <Product />
             </div>
             <div className="home__row">
-
-            </div>
-            <div className="home__row">
-
+                <Product />
             </div>
             </div>
         </div>
