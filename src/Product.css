@@ -15,7 +15,6 @@
 .product__info{
     height: 100px;
     margin-bottom: 15px;
-    border: 2px solid red;
 }
 
 @media screen and (max-width:700px){
@@ -46,7 +45,6 @@
     width: 120px;
     object-fit: contain;
     margin-bottom: 15px;
-    border: 2px solid red;
 }
 
 
