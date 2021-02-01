@@ -51,3 +51,24 @@
 .checked{
     color:yellow
 }
+
+@media all and (max-width:700px){
+    .product{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .product__info{
+        margin-bottom: 0px;
+        height: 70px;
+    }
+    .product__image{
+        margin-bottom: 0;
+        width: 100px;
+    }
+    .product > button {
+        margin-top: 0px;
+        
+    }
+
+}
