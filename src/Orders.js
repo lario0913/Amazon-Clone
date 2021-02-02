@@ -7,7 +7,6 @@ import { useStateValue } from './StateProvider'
 function Orders() {
     const [{user}] = useStateValue()
     const [orders, setOrders] = useState([])
-    
 
     useEffect(() => {
         if(user){

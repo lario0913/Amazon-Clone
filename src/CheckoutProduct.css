@@ -26,3 +26,15 @@
     font-size: 17px;
     font-weight: 800;
 }
+
+@media all and (max-width:700px){
+    .checkoutProduct{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .checkoutProduct__title{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

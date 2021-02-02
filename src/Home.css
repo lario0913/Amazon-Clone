@@ -4,6 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1300px;
+    margin-bottom: 0;
 }
 
 .home__row{
@@ -26,7 +27,7 @@
         justify-content: center;
     }
     .home__image{
-        margin-bottom: -120px;
+        margin-bottom: -90px;
     }
     .home__row{
         flex-direction: column;
